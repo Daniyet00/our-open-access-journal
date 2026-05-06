@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A summary of Christian Casey's paper on building digital projects to outlive their funding.">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Building Digital Projects to Outlive Their Funding by Christian Casey</title>
+</head>
+<body>
+    <div class="page">
+        <div class="section">
+            <h1>(Summary) <a href="https://avarjournal.com/avar/article/view/2835/2059" target="_blank">Building Digital Projects to Outlive Their Funding</a></h1>
+            <div class="author">Christian Casey<br>Freie Universität Berlin</div>
+
+            <section class="abstract">
+                <h2>Abstract</h2>
+                <p>In this paper, I address one of the most persistent problems in the digital humanities: sustainability. Too many valuable digital research tools disappear once their funding runs out, even though the knowledge they contain remains useful for years or decades afterward. Using the Zodiac Glossary as a case study, I consider a range of practical strategies for building online academic resources that can survive beyond the active life of a grant. My central argument is simple: sustainability matters more than technical sophistication. An imperfect website that remains available indefinitely is far more valuable than an impressive one that disappears after only a few years.</p>
+            </section>
+
+            <section>
+                <h2>Introduction</h2>
+
+                <p>Creating a customized, data-driven website for an ancient-world project is difficult even under ideal circumstances. It requires technical expertise, domain knowledge, data-entry labor, and long-term infrastructure. These demands are especially hard to meet in grant-funded projects, where the available time is short and the future of the resource after the grant ends is often uncertain.</p>
+
+                <p>The problem is not merely theoretical. Many digital research tools disappear once their original funding runs out. When this happens, scholars lose access to resources that may have no replacement. This is especially damaging because grant-funded digital projects are often designed to be innovative and unique. If they vanish, something genuinely irreplaceable may vanish with them.</p>
+
+                <p>My purpose is not to propose a single universal solution. No such solution exists. Instead, I lay out several possible strategies and evaluate them against the practical needs of one specific project: the Zodiac Glossary. The broader principle is that researchers must make deliberate choices about cost, complexity, maintenance, and longevity from the beginning. Flashy technical design is much less important than making sure the resource stays online.</p>
+            </section>
+
+            <section>
+                <h2>The Zodiac Project and the Glossary of Ancient Zodiacal Terms</h2>
+
+                <p>The Zodiac Project is a five-year ERC-funded project studying the rise of the zodiac in Mesopotamia and its spread through the ancient world. Because the evidence appears in many languages, scripts, and scholarly subfields, the project required a shared database of zodiacal and astral terminology. No single researcher could command all of the relevant material alone, so we needed a tool that could let specialists contribute their own knowledge while making it usable to the rest of the team.</p>
+
+                <p>In technical terms, the glossary is not especially exotic. It is basically a relational database that connects words, sources, translations, meanings, and cross-cultural relationships. The harder problem was not building a database for internal use. The harder problem was turning it into a free public resource that could remain available after the Zodiac Project itself ended.</p>
+
+                <p>For that reason, the Zodiac Glossary became a useful test case for a much larger problem in the digital humanities. Hosting, maintenance, cost, and institutional dependence are not secondary concerns. They determine whether the scholarly work survives at all.</p>
+            </section>
+
+            <section>
+                <h2>The Fundamental Problem</h2>
+
+                <p>The basic problem is that research funding is still largely built around the model of print scholarship. A book is created with research funds, published, bought by readers or libraries, and then preserved by those readers or institutions. The creator does not pay indefinitely to keep the book alive.</p>
+
+                <p>Websites do not work that way. The people who create an academic website are also expected to pay for its hosting, maintenance, security, and preservation indefinitely. If they stop paying, the resource disappears. Funding bodies have not fully adapted to this difference.</p>
+
+                <p>I identify six possible strategies for dealing with the problem:</p>
+
+                <ol>
+                    <li>Using a paid-service model</li>
+                    <li>Relying on university webhosting</li>
+                    <li>Paying for permanent online publication</li>
+                    <li>Applying for continuing grant funding</li>
+                    <li>Setting aside money through an endowment-like model</li>
+                    <li>Leveraging free services wherever possible</li>
+                </ol>
+
+                <p>None of these approaches is perfect. Each one makes sense only under certain conditions. The task is to choose the least bad option for a particular project.</p>
+            </section>
+
+            <section>
+                <h2>A Paid-Service Model</h2>
+
+                <p>The most obvious solution is to make users pay for access. This resembles the traditional print model, since the people who use the resource, or their institutions, fund its continued existence. In practice, however, this model is difficult for online academic resources because scholars have grown used to the idea that digital materials should be free.</p>
+
+                <p>Trismegistos provides the clearest example. After years of surviving on grants and institutional support, it had to move toward a subscription model in order to stay alive. This produced real income, but it also introduced problems: payment administration, unequal access, and the pressure to keep expanding in order to justify the subscription cost.</p>
+
+                <p>This model works best for very large, widely used resources. It is much less suitable for smaller, more specialized projects. The Zodiac Glossary is too niche to attract a large subscription base, and its users may overlap heavily with its contributors. Charging them for access would undermine the purpose of the project.</p>
+            </section>
+
+            <section>
+                <h2>University Webhosting</h2>
+
+                <p>University hosting appears, at first, to be the natural solution. Universities have infrastructure, technical staff, institutional stability, and an interest in preserving the work produced by their researchers. In theory, this should make university hosting stable, reliable, and free.</p>
+
+                <p>In practice, it often comes with serious limitations. University systems can lag behind modern commercial hosting platforms, and university IT departments are frequently overburdened. Provisioning server space can take months or even years, which is a major problem for short-term grant-funded projects.</p>
+
+                <p>Security creates another difficulty. Because universities are targets for cyberattacks, even harmless public-facing research projects may be subject to heavy security requirements. The project becomes part of a larger institutional risk environment, even if its own data are meant to be public.</p>
+
+                <p>The Zodiac Project initially planned to use university hosting at Freie Universität Berlin, but delays made that option unworkable. We needed to start entering and using data within the lifetime of the grant, not after the institutional machinery finally caught up.</p>
+            </section>
+
+            <section>
+                <h2>Permanent Online Publication</h2>
+
+                <p>Permanent online publication offers another option. Services such as Open Context allow researchers to publish datasets online for a fee, somewhat like publishing an open-access book. This can be an excellent solution for completed datasets that need to remain accessible indefinitely.</p>
+
+                <p>The strength of this model is that it separates long-term data preservation from the fragile life of a custom website. Databases and structured datasets tend to remain useful longer than user interfaces, which become obsolete much more quickly.</p>
+
+                <p>For the Zodiac Glossary, however, this approach did not solve the main problem. Our project needed an active interface for data entry, editing, searching, and linking. Publishing the data permanently might be useful later, but it could not replace the working website itself.</p>
+            </section>
+
+            <section>
+                <h2>Grants for Website Maintenance</h2>
+
+                <p>Continuing grant funding is a poor fit for many small digital projects. Grants usually fund the creation of new knowledge, not the preservation of completed resources. Large projects with open-ended goals can often justify new grants because there is always more work to do. Small, fixed-scope projects cannot do this so easily.</p>
+
+                <p>Once the Zodiac Glossary has achieved the goals set out in the original project, additional funding would mainly preserve something that already exists. That is necessary work, but it is not the kind of work that grant agencies usually want to fund. Expanding the project artificially just to attract more money would distort its purpose.</p>
+            </section>
+
+            <section>
+                <h2>An Endowment Model</h2>
+
+                <p>An endowment-style solution is attractive in theory. A project could set aside money during the grant period and use it to pay for hosting and maintenance over many years. Because the cost of maintaining a small website can be low, this seems plausible at first glance.</p>
+
+                <p>The difficulty is administrative. Someone has to manage the money, pay the bills, and remain responsible for the project long after the grant has ended. Most small academic teams do not have the expertise or institutional structure to do this. In practice, this model is more realistic for large organizations than for small research projects.</p>
+            </section>
+
+            <section>
+                <h2>Leveraging Free Services</h2>
+
+                <p>The most promising strategy for many small projects is to reduce costs as close to zero as possible. This requires resisting the temptation to build the most sophisticated possible website. Many digital-humanities projects do not actually need complex server-side infrastructure. They need stable, searchable, readable access to well-structured information.</p>
+
+                <p>The first question should always be whether the project truly needs a dynamic website. Often, the answer is no. Static websites can be hosted for free, maintained easily, and built from structured text files. For projects with relatively stable entries, such as encyclopedia-style resources, this can be ideal.</p>
+
+                <p>When static websites are not enough, pseudo-dynamic websites may offer a middle path. A project can use spreadsheets or other lightweight tools as the data source, then rely on frontend JavaScript to load, search, and display the information. From the user’s perspective, the result may feel dynamic, while the hosting remains static and free.</p>
+
+                <p>When a genuinely dynamic website is unavoidable, free-tier hosting may still keep costs low. Services such as Fly.io or AWS provide limited free resources, and many small academic projects operate far below those limits. The website must be engineered carefully: database operations should be minimized, unnecessary server traffic avoided, and as much work as possible shifted to the client side.</p>
+
+                <p>This approach is not risk-free. Free services can disappear, as Heroku’s free tier did. Projects depending on such services must be portable and ready to move. Still, for the Zodiac Glossary, this was the best available solution. It allowed us to build and use the project immediately while keeping long-term costs extremely low.</p>
+            </section>
+
+            <section>
+                <h2>Conclusion</h2>
+
+                <p>The sustainability problem in the digital humanities is severe. The current funding system remains tied to assumptions inherited from print publication, while digital resources require ongoing maintenance in ways that books do not. Until funding structures change, researchers must work pragmatically within an imperfect landscape.</p>
+
+                <p>The guiding principle should be longevity. Each project should be designed around its actual needs, not around the desire to use the newest tools. Sometimes the best solution will be static hosting. Sometimes it will be permanent data publication. Sometimes it will be a carefully optimized dynamic site running on free-tier infrastructure.</p>
+
+                <p>In the end, the most important point is that a digital project must remain available. The perfect website that disappears is a failure. The imperfect one that survives may continue to serve scholarship long after its original funding has ended.</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
